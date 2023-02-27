@@ -3,8 +3,6 @@ import styled from 'styled-components'
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme.background};
   color: ${(props) => props.theme['purple-dark']};
-  max-width: 89%;
-  margin: 2rem auto;
 
   display: flex;
   align-items: center;
